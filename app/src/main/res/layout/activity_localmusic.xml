@@ -47,7 +47,6 @@
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="15dp"
             android:background="@drawable/shuaxin"/>
-
     </RelativeLayout>
 
     <View
@@ -56,15 +55,17 @@
         android:background="#cec5c5"/>
 
     <ListView
-        android:id="@+id/music_list"
+        android:id="@+id/music_list_parent"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="10">
     </ListView>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="#cec5c5"/>
+
     <RelativeLayout
         android:id="@+id/player"
         android:layout_width="match_parent"
